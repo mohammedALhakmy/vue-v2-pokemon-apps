@@ -14,6 +14,9 @@
         <h5 class="text-blue-900">{{type.type.name}}</h5>
       </div>
     </div>
+    <div v-else class="text-black bg-red-500 justify-center h-24 m-auto p-4">
+      لايوجد اسم بهذه الشيء او الصورة غير موجوده
+    </div>
   </div>
 </template>
 
