@@ -9,6 +9,7 @@
         <img class="w-48" :src="pokemon.sprites.front_shiny" alt="" />
         <img class="w-48" :src="pokemon.sprites.back_shiny" alt="" />
       </div>
+
       <h3  class="text-yellow-400">Types</h3>
       <div v-for="(type, idx) in pokemon.types" :key="idx">
         <h5 class="text-blue-900">{{type.type.name}}</h5>
